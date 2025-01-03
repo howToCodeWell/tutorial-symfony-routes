@@ -1,3 +1,3 @@
-# Tutorial 5: Symfony route methods
+# Tutorial 6: Symfony route methods
 
 See demo.http
