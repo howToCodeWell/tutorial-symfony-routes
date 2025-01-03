@@ -12,7 +12,7 @@ class UserController extends AbstractController
     public function profile(): JsonResponse
     {
         return $this->json([
-            'method' => 'profile',
+            'method' => 'profile'
         ]);
     }
 
@@ -20,7 +20,7 @@ class UserController extends AbstractController
     public function contact(): JsonResponse
     {
         return $this->json([
-            'method' => 'user',
+            'method' => 'contact'
         ]);
     }
 }
