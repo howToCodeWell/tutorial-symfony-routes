@@ -6,6 +6,8 @@ Tutorials on Symfony routing
 - [Tutorial 3](./tutorials/tutorial_3/README.md): [Symfony route parameter requirements](https://howtocodewell.net)
 - [Tutorial 4](./tutorials/tutorial_4/README.md): [Optional Symfony route parameters](https://howtocodewell.net)
 - [Tutorial 5](./tutorials/tutorial_5/README.md): [Symfony route name collisions](https://howtocodewell.net)
+- [Tutorial 6](./tutorials/tutorial_6/README.md): [Symfony route methods](https://howtocodewell.net)
+
 
 ## How to create a new tutorial
 From the project root

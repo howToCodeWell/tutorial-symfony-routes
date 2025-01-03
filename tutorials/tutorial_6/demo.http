@@ -1,0 +1,14 @@
+### Request user with ID
+GET http://127.0.0.1:8000/user/1
+
+### Request to user edit using GET (405)
+GET http://127.0.0.1:8000/user/1/edit
+
+### Request to user edit using POST
+POST http://127.0.0.1:8000/user/1/edit
+
+### Request to delete user with GET (405)
+GET http://127.0.0.1:8000/user/1/delete
+
+### Request to delete user with DELETE
+DELETE http://127.0.0.1:8000/user/1/delete
