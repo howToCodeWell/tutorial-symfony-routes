@@ -8,11 +8,15 @@ use Symfony\Component\Routing\Attribute\Route;
 
 class PostController extends AbstractController
 {
-    #[Route('/post/{page}', name: 'app_post', requirements: ['page' => '\d+'])]
-    public function index(int $page = 1): JsonResponse
+    #[Route(
+        '/post/{pageNumber}', 
+        name: 'app_post', 
+        requirements: ['pageNumber' => '\d+']
+    )]
+    public function index(int $pageNumber = 1): JsonResponse
     {
         return $this->json([
-            'pageNumber' => $page,
+            'pageNumber' => $pageNumber,
         ]);
     }
 }
