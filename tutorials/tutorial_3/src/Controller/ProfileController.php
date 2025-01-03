@@ -8,11 +8,15 @@ use Symfony\Component\Routing\Attribute\Route;
 
 class ProfileController extends AbstractController
 {
-    #[Route('/{userHandle}', name: 'app_profile', requirements: ['userHandle' => '^@[a-z]+'])]
+    #[Route(
+        '/{userHandle}', 
+        name: 'app_profile', 
+        requirements: ['userHandle' => '^@[a-z]+']
+    )]
     public function index(string $userHandle): JsonResponse
     {
         return $this->json([
-            'userHandle' => $userHandle
+            'userHandle' => $userHandle,
         ]);
     }
 
@@ -20,7 +24,7 @@ class ProfileController extends AbstractController
     public function edit(): JsonResponse
     {
         return $this->json([
-            'message' => 'Edit actions'
+            'message' => 'Edit action',
         ]);
     }
 }
