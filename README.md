@@ -8,6 +8,7 @@ Tutorials on Symfony routing
 - [Tutorial 5](./tutorials/tutorial_5/README.md): [Symfony route name collisions](https://howtocodewell.net)
 - [Tutorial 6](./tutorials/tutorial_6/README.md): [Symfony route methods](https://howtocodewell.net)
 - [Tutorial 7](./tutorials/tutorial_7/README.md): [Symfony controller route group](https://howtocodewell.net)
+- [Tutorial 8](./tutorials/tutorial_7/README.md): [Symfony debugging routes](https://howtocodewell.net)
 
 ## How to create a new tutorial
 From the project root
