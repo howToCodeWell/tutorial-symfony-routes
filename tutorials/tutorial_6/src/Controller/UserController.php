@@ -9,7 +9,7 @@ use Symfony\Component\Routing\Attribute\Route;
 class UserController extends AbstractController
 {
     #[Route('/user/{id}',
-        name: 'app_user',
+        name: 'app_user_index',
         requirements: ['id' => '\d+'],
         methods: ['GET'],
     )]
