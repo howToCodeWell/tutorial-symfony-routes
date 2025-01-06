@@ -6,13 +6,15 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\Routing\Attribute\Route;
 
-#[Route('/user', name: 'app_user_')]
+#[Route('/user',
+    name: 'app_user_',
+    methods:['GET'],
+    requirements: ['id' => '\d+']
+)]
 class UserController extends AbstractController
 {
     #[Route('/{id}',
         name: 'index',
-        requirements: ['id' => '\d+'],
-        methods: ['GET'],
     )]
     public function index(int $id): JsonResponse
     {
@@ -24,7 +26,6 @@ class UserController extends AbstractController
 
     #[Route('/{id}/edit',
         name: 'edit',
-        requirements: ['id' => '\d+'],
         methods: ['POST'],
     )]
     public function edit(int $id): JsonResponse
@@ -38,7 +39,6 @@ class UserController extends AbstractController
     #[Route('/{id}/delete', 
         name: 'delete', 
         methods: ['DELETE'],
-        requirements: ['id' => '\d+']
     )]
     public function delete(int $id): JsonResponse
     {
