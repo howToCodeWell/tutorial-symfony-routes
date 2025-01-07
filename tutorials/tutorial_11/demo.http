@@ -1,0 +1,5 @@
+### Request article list
+GET http://127.0.0.1:8000/articles
+
+### Request article search
+GET http://127.0.0.1:8000/articles/search
