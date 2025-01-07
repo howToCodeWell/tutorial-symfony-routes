@@ -12,6 +12,7 @@ Tutorials on Symfony routing
 - [Tutorial 9](./tutorials/tutorial_9/README.md): [Symfony route priority](https://howtocodewell.net)
 - [Tutorial 10](./tutorials/tutorial_10/README.md): [Symfony route ENUM requirements](https://howtocodewell.net)
 - [Tutorial 11](./tutorials/tutorial_11/README.md): [Symfony route defaults](https://howtocodewell.net)
+- [Tutorial 12](./tutorials/tutorial_12/README.md): [How to get Symfony route attributes within the controller](https://howtocodewell.net)
 
 ## How to create a new tutorial
 From the project root
