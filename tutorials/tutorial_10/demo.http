@@ -1,0 +1,6 @@
+### Request user with ID
+GET http://127.0.0.1:8000/articles/14
+
+### Request to user edit using 
+GET http://127.0.0.1:8000/article/2721ffc3-f8a9-417e-a124-af057434a3af
+
